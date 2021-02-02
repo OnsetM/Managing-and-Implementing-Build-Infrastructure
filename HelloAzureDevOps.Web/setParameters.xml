@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <appSettings>
+    <add xdt:Transform="Replace" xdt:Locator="Match(key)" key="webpages:Enabled" value="true" />
+    <add key="sql-db-hostname" value="" xdt:Transform="Insert" />
+    <add key="sql-db-user" value="" xdt:Transform="Insert" />
+  </appSettings>
+  <system.web>
+    <compilation xdt:Transform="RemoveAttributes(debug)" />
+  </system.web>
+</configuration>
