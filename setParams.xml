@@ -1,0 +1,4 @@
+<parameters>
+ <setParameter name="sql-db-hostname" value="" />
+ <setParameter name="sql-db-user" value="" />
+</parameters>
